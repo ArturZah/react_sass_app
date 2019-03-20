@@ -1,15 +1,16 @@
 .nav-bar {
   width: 100%;
+  justify-content: flex-start !important;
  
   .header-logo {
-    flex-direction: column;
-
-    .header-text {
-      text-transform: uppercase;
-      margin-top: 10px;
-    }
+    margin: 10px 0px 0px 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
 
     .header-icon {
+      margin-right: 15px;
       font-size: 4rem;
       animation: rotate 15s linear infinite;
 
@@ -22,8 +23,9 @@
 
   .menu{
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 20px;
+    right: 5%;
+    z-index: 9999;
   } 
 }
 
