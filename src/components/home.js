@@ -11,7 +11,7 @@ export class Home extends Component {
         <div className="tile-cnt" key={ movie.id }>
           <h2>{ movie.title }</h2>
           <div className="tile-content">
-            <iframe width="100%" height="100%" src={ movie.url } frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title={ movie.id }></iframe>
+            <iframe width="99.8%" height="100%" src={ movie.url } frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title={ movie.id }></iframe>
           </div>
           <p>{ movie.dsc}</p>
         </div>

@@ -10,6 +10,9 @@ $break-mid: 840px;
     justify-content: flex-start;
     align-items: center;
     
+    h2 {
+      cursor: default;
+    }
 
     .header-icon {
       margin-right: 15px;
@@ -31,6 +34,8 @@ $break-mid: 840px;
 
     @media screen and (min-width: $break-mid) {
       top: 30px;
+      width: 60%;
+      margin: auto 10% auto auto;
     }
   } 
 

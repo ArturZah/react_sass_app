@@ -1,4 +1,5 @@
 $break-mid: 840px;
+$break-landscape: 'landscape';
 
 .home-cnt {
 
@@ -8,8 +9,17 @@ $break-mid: 840px;
     margin: 10px auto;
 
     .tile-content {
-      height: 80%;
+      height: 100%;
       margin: 10px auto;
+      background-color: rgb(15, 15, 15);
+
+      @media only screen and (orientation: $break-landscape) {
+        height: 300px;
+      }
+
+      @media only screen and (orientation: $break-landscape) and (min-width: $break-mid) {
+        height: 400px;
+      }
     }
 
     @media screen and (min-width: $break-mid) {
