@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 import '../scss/hamburger.scss';
 
 
@@ -17,9 +18,9 @@ export class Hamburger extends Component {
           <div className={ this.state.isMenuOpen ? "line line-click3" : "line"}></div>
         </div>
         <ul className={ this.state.isMenuOpen ? "menu-items flex menu-on" : "menu-items flex"}> 
-          <li><a href="#home" className="menu-item">Home</a></li>
-          <li><a href="#home" className="menu-item">About</a></li>
-          <li><a href="#home" className="menu-item">Contact</a></li>
+          <li><Link to="/" className="menu-item">Home</Link></li>
+          <li><Link to="/about" className="menu-item">About</Link></li>
+          <li><Link to="/contact" className="menu-item">Contact</Link></li>
         </ul>
       </React.Fragment>
     )

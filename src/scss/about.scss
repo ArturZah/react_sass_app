@@ -1,0 +1,61 @@
+.about-cnt {
+  width: 100%;
+
+  .about-content {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+
+    .about-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 40px auto 20px auto;
+    }
+
+    .about-text {
+      flex-direction: column;
+
+      p {
+        text-align: justify;
+        font-size: 1.4rem;
+        line-height: 28px;
+
+        strong {
+          font-weight: 400;
+        }
+      }
+
+      .github-btn {
+        height: 50px;
+        width: 150px;
+        margin: 60px auto;
+        border-radius: 2px;
+        border: 1px solid #333;
+        background-color: #333;
+        color: #fff;
+        font-size: 1.3rem;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .github-btn:hover {
+        background-color: #fff;
+        color: #333;
+      }
+
+      .about-icons {
+        width: 80%;
+        margin-bottom: 50px;
+        font-size: 3.5rem;
+        justify-content: space-between;
+
+        i:first-child {
+          color: #61dbfb;
+        }
+  
+        i:last-child {
+          color: #c69;
+        }
+      }
+    }
+  }
+}
