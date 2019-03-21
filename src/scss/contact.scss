@@ -1,0 +1,20 @@
+.contact-cnt {
+  flex-direction: column;
+  height: 80vh;
+
+  h2 {
+    margin: 20px auto 40px auto;
+  }
+
+  p {
+    margin: 10px auto;
+
+    span {
+      font-weight: 400;
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 50px;
+  }
+}
