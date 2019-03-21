@@ -1,3 +1,5 @@
+$break-mid: 840px;
+
 .about-cnt {
   width: 100%;
 
@@ -10,6 +12,12 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       margin: 40px auto 20px auto;
+
+      @media screen and (min-width: $break-mid) {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin: 50px auto 50px auto;
+      }
     }
 
     .about-text {
@@ -35,6 +43,10 @@
         color: #fff;
         font-size: 1.3rem;
         transition: all 0.3s ease-in-out;
+
+        @media screen and (min-width: $break-mid) {
+          margin: 100px auto;
+        }
       }
 
       .github-btn:hover {
@@ -57,5 +69,13 @@
         }
       }
     }
+
+    @media screen and (min-width: $break-mid) {
+      width: 40%;
+    }
+  }
+
+  @media screen and (min-width: $break-mid) {
+    height: 80vh;
   }
 }

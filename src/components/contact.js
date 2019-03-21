@@ -18,7 +18,7 @@ export class Contact extends Component {
 
   render() {
     return this.state.person.map((person) => (
-      <div className="contact-cnt flex">
+      <div key={ person.id } className="contact-cnt flex">
         <h2>Data from JSON API</h2>
         <p><span>Name</span>: { person.name }</p>
         <p><span>Address</span>: { person.address.street + " " +  person.address.suite}</p>

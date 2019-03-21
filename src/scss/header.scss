@@ -1,3 +1,5 @@
+$break-mid: 840px;
+
 .nav-bar {
   width: 100%;
   justify-content: flex-start !important;
@@ -26,6 +28,15 @@
     top: 20px;
     right: 5%;
     z-index: 9999;
+
+    @media screen and (min-width: $break-mid) {
+      top: 30px;
+    }
   } 
+
+  @media screen and (min-width: $break-mid) {
+    height: 10vh;
+    margin-top: 20px;
+  }
 }
 

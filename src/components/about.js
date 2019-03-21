@@ -13,9 +13,9 @@ export class About extends Component {
             <p>This single page application was made with <strong>react.js</strong> and <strong>sass</strong>. I also use react-router-dom for make navigation routing on page and axios for communication with jsonplaceholder <strong>API</strong>. You can check source code on my <strong>GitHub</strong> account.</p>
             <a className="github-btn flex" href="https://github.com/ArturZah/react_sass_app">GitHub</a>
             <div className="about-icons flex">
-              <i class="fab fa-react"></i>
-              <i class="fab fa-git"></i>
-              <i class="fab fa-sass"></i>
+              <i className="fab fa-react"></i>
+              <i className="fab fa-git"></i>
+              <i className="fab fa-sass"></i>
             </div>
           </div>
         </div>

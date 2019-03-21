@@ -1,13 +1,29 @@
+$break-landscape: 'landscape';
+$break-mid: 840px;
+
 .footer-cnt {
   width: 100%;
-  height: 50px;
+  height: 10vh;
   background-color: #252525;
   font-size: 0.7rem;
   letter-spacing: 1px;
 
   a {
-    height: 50px;
-    padding-top: 18px;
+    height: 10vh;
+    padding-top: 4vh;
     color: rgb(200, 200, 200);
+  }
+
+  @media only screen and (orientation: $break-landscape) {
+    height: 50px;
+  
+    a {
+      height: 50px;
+      padding-top: 18px;
+    }
+  }
+
+  @media screen and (min-width: $break-mid) {
+    height: 8vh;
   }
 }
